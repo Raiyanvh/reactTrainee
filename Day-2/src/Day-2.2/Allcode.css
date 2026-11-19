@@ -1,0 +1,46 @@
+
+h1{
+    margin-bottom: 30px;
+}
+
+
+h3 {
+    margin: 20px 0 10px;
+    font-size: 2.5em;
+}
+
+.counter, .showhide, .liveinput, .browsertitle{
+    text-align: center;
+}
+
+
+/* ================================================================== */
+/* Exercise 3: Live Input */
+.liveinput input {
+    margin-bottom: 15px;
+    padding: 10px;
+}
+
+.liveinput p {
+    font-size: 20px;
+}
+
+.warn-p {
+    color: red;
+}
+
+
+
+/* ================================================================== */
+
+
+
+
+
+
+
+
+
+
+
+
