@@ -1,0 +1,87 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  font-family:Arial, Helvetica, sans-serif;
+  background-color: aliceblue;
+}
+
+.container{
+  width: min(100% - 24px, 1000px);
+  margin: 2em auto;
+  animation: boxshadow 8s linear infinite alternate;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.151);
+}
+
+@keyframes boxshadow {
+  0%{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.252);
+  }
+
+  25%{
+    box-shadow: 0 0 5px rgba(198, 236, 154, 0.252);
+  }
+
+  50%{
+    box-shadow: 0 0 10px rgba(94, 239, 255, 0.284);
+  }
+
+  75%{
+    box-shadow: 0 0 5px rgba(255, 224, 86, 0.252);
+  }
+
+  100%{
+    box-shadow: 0 0 10px rgba(255, 112, 207, 0.252);
+  }
+}
+
+.group-componentName {
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.146);
+  border-radius: 5px;
+  margin: 20px 0;
+}
+
+
+/* grid all component include one css  */
+.list-grid{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(370px, 1fr));
+  gap: 20px;
+}
+
+/* Card */
+.card {
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.122);
+  border-radius: 9px;
+}
+
+/* Heading Text Center */
+.text-center{
+  text-align: center;
+  text-shadow: 2px 0 20px rgb(144, 238, 144);
+  margin-bottom: 30px;
+}
+
+.title-heading{
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.message-empty {
+  padding: 15px;
+  text-align: center;
+  background-color: rgb(255, 206, 30);
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+  margin-top: 10px;
+}
+
+

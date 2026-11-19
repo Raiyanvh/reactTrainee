@@ -1,0 +1,174 @@
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.container-IndividualTask{
+    width: min(100% - 32px, 1000px);
+    margin: 20px auto;
+}
+
+.container-IndividualTask .title{
+    font-size: 27px;
+    text-align: center;
+}
+
+/* box shadow All include */
+.group-profile, .course-card, .skill-list, .panel-group, .panel{
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.139);
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.group-profile .profile-grid, .coursecard-grid, .skillList-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 10px;
+}
+
+/* ========================================================================= */
+/* Task 1 — Reusable Profile Card */
+
+
+.group-profile .profilecard{
+    box-shadow: 0 0 10px rgba(28, 255, 28, 0.264);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.profilecard > p {
+    margin-top: 10px;
+}
+
+
+/* ========================================================================= */
+/* Task 2 — Course Card */
+
+.coursecard-grid {
+    margin-top: 30px;
+}
+
+.coursecard-grid .course-article {
+    position: relative;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.158);
+    padding: 15px 20px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+}
+
+.coursecard-grid .course-article > p {
+    color: #dddddd90 !important;
+    margin-top: 10px;
+}
+
+.course-article h1 {
+    font-size: 20px;
+}
+
+.course-article button{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    outline: 0;
+    border: 0;
+    border-radius: 7px;
+    padding: 10px 15px;
+    font-weight: 600;
+}
+
+.course-article .publicat-green{
+    background-color: rgba(0, 128, 0, 0.279);
+    color: green;
+}
+
+.course-article .draft-warn{
+    background-color: rgba(255, 0, 0, 0.296);
+    color: red;
+}
+
+
+
+
+/* ========================================================================= */
+/* Task 3 — Skills List */
+
+.skill-list .skilllist-card{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.158);
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+.skilllist-card > * {
+    margin-top: 10px;
+}
+
+.skilllist-card .profile-circle {
+    display: flex;
+    justify-content: center;
+}
+
+.profile-circle h3{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: green;
+    font-size: 30px;
+    font-weight: 600;
+    color: white;
+}
+
+.skilllist-card h1 {
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+.skilllist-card ul{
+    padding: 0 10px;
+}
+
+.skilllist-card ul li{
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+
+
+/* ========================================================================= */
+
+
+.panel > *{
+    margin-top: 10px;
+}
+
+.panel h1 {
+    font-size: 2rem;
+}
+
+.panel ul > * {
+    margin-top: 10px;
+}
+
+.panel button {
+    margin-top: 20px;
+    outline: 0;
+    border: 0;
+    padding: 10px 15px;
+    border-radius: 10px;
+    background-color: #ddd;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+
+
+
+
+

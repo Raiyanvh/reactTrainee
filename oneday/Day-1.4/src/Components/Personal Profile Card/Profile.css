@@ -1,0 +1,45 @@
+/* Question 29 — Personal Profile Card */
+
+.profile-Card{
+  background-color: black;
+  color: white;
+  position: relative;
+}
+
+.profile-Card .profile-id {
+  position: absolute;
+  top: 10%;
+  left: 70%;
+  font-weight: 900;
+  font-size: 6em;
+  transform: rotate(45deg);
+  color: #dddddd2a;
+  z-index: 0;
+}
+
+.profile-Card h3 {
+  display: inline-block;
+  margin: 20px;
+  letter-spacing: 5px;
+  background-color: green;
+  padding: 15px;
+  font-size: 18px;
+  font-weight: 700;
+  border-radius: 10px;
+}
+
+.profile-Card > *{
+  margin-top: 10px;
+}
+
+.profile-Card .skills{
+  margin: 25px 0;
+}
+
+.skills span{
+  padding: 5px 10px;
+  border-radius: 10px;
+  background-color: #ddd;
+  color: green;
+  margin: 0 5px;
+}

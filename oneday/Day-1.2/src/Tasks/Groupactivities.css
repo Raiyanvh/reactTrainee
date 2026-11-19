@@ -1,0 +1,247 @@
+.title-heading {
+    text-align: center;
+    margin-top: 3.5em;
+    margin-bottom: 30px;
+}
+
+
+/* Group Task 1 — E-commerce product listing */
+.container-all{
+    background-color: black;
+    color: white;
+    padding: 30px 20px;
+    border-radius: 5px;
+}
+
+.heading h1{
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.heading small{
+    color: blue;
+    background-color: rgba(0, 0, 255, 0.176);
+    padding: 8px 10px;
+    border-radius: 30px; 
+    font-size: 18px;
+}
+
+.product-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+    gap: 10px;
+    margin: 15px 0;
+}
+
+.prodcut-card {
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid rgba(180, 167, 167, 0.221);
+}
+
+.prodcut-card .icon{
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.prodcut-card .title-product {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.prodcut-card .text-category{
+    color: #b3b2b271;
+    margin-bottom: 10px;
+}
+
+.prodcut-card button{
+    padding: 10px 20px;
+    border: 0;
+    outline: 0;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.prodcut-card .available-product{
+    background-color: rgba(0, 128, 0, 0.282);
+    color: green;
+}
+.prodcut-card .outofstock-product{
+    background-color: rgba(255, 0, 0, 0.228);
+    color: red;
+}
+
+.text-noavailable{
+    padding: 10px 20px;
+    background-color: rgba(255, 0, 0, 0.356);
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+
+
+/* ============================================================================== */
+/* Group Task 2 — Student directory */
+
+.card-student {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+    gap: 10px;
+    background-color: black;
+    padding: 20px;
+}
+
+.card-student .card-child{
+    color: white;
+    border-radius: 15px;
+    border: 1px solid rgba(177, 175, 175, 0.363);
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.136);
+    padding: 15px;
+}
+
+.card-child .heading-profile {
+    border-bottom: 1px solid #dddddd21;
+    padding-bottom: 15px;
+}
+
+.heading-profile .heading-title {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.heading-title .circle {
+    display: inline-block;
+    padding: 25px;
+    border-radius: 50%;
+    background-color: rgba(55, 55, 55, 0.377);
+    margin-right: 15px;
+}
+
+.heading-title .profile-title {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.heading-profile .card-role {
+    color: rgba(255, 255, 255, 0.42);
+} 
+
+.card-child .skill{
+    margin-top: 20px;
+}
+
+.skill .btn-flex {
+    display: flex;
+    margin-top: 15px;
+}
+
+.skill .btn-skill{
+    outline: 0;
+    border: 0;
+    padding: 8px 20px;
+    border-radius: 30px;
+    margin: 2px;
+    font-size: 10px;
+    font-weight: 500;
+    background-color: rgba(135, 206, 250, 0.242);
+    color: white;
+}
+
+.card-child .comle-task {
+    margin-top: 7px;
+    color: green;
+}
+
+
+/* ============================================================================== */
+/* Group Task 3 — Result dashboard */
+
+.dashboard-student {
+    box-shadow:  0 0 10px rgba(127, 127, 127, 0.186);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.dashboard-student .title-student {
+    text-align: center;
+}
+
+.dashboard-student .dashboard-list, .result-number-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    /* grid-template-columns: 1fr 1fr 1fr; */
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.result-number-list > *{
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.dashboard-list .student-item{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    padding: 15px;
+    position: relative;
+}
+
+.student-item > * {
+    margin-top: 10px;
+}
+
+.student-item .title-dashstudent{
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.student-item .student-marks{
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.student-item .result-student {
+    outline: 0;
+    border: 0;
+    padding: 10px 20px;
+    border-radius: 30px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.student-item .dashpassed, .result-number-list .pass-item{
+    background-color: rgba(0, 128, 0, 0.187);
+    color: green;
+}
+
+.student-item .dashfail, .result-number-list .fail-item{
+    background-color: rgba(255, 0, 0, 0.16);
+    color: red;
+}
+
+
+.student-item .congration{
+    padding: 10px 20px;
+    text-align: center;
+    background-color: rgba(0, 128, 0, 0.187);
+    color: green;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+

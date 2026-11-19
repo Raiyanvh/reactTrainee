@@ -1,0 +1,46 @@
+
+.text-center{
+    text-align: center;
+}
+
+.student-list, .catalogue-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 15px;
+    margin: 15px 0;
+}
+/* Group Task 1 — Student Directory */
+
+.student-list .student-Card, .catalogue-card{
+    padding: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.071);
+    border-radius: 5px;
+}
+
+.student-Card .span-badge{
+    padding: 10px 15px;
+    background-color: aquamarine;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+/* ======================================================================== */
+/* Group Task 2 — Course Catalogue */
+
+.catalogue-card .available {
+    padding: 10px 15px;
+    background-color: rgba(0, 128, 0, 0.224);
+    color: green;
+    display: inline-block;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+.catalogue-card .unavailable {
+    padding: 10px 15px;
+    background-color: rgba(255, 0, 0, 0.185);
+    color: red;
+    display: inline-block;
+    border-radius: 5px;
+    font-weight: 600;
+}

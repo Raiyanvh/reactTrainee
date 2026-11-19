@@ -1,0 +1,247 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+  max-width: 900px;
+  margin: 20px auto 0;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.task-title {
+  text-align: center;
+  margin: 20px 0;
+}
+
+
+.allcontainer {
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(151, 151, 151, 0.404);
+  border-radius: 5px;
+}
+
+/* ============================================================= */
+/* Task 1 — Personal introduction card */
+/* My introduction */
+.intro-card{
+  max-width: 650px;
+  margin: 0 auto;
+  background-color: black;
+  color: white;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(151, 151, 151, 0.404);
+  border-radius: 5px;
+}
+
+.heading{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.heading .badge{
+  padding: 10px 20px;
+  border-radius: 30px;
+  background-color: rgba(0, 128, 0, 0.399);
+  color: green;
+  font-weight: 600;
+}
+
+
+.heading h3{
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.card .personal-detail{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.personal-detail > *{
+  margin: 5px;
+}
+
+.profile{
+  height: 70px;
+  width: 70px;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  background: blue;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.title {
+  font-size: 25px;
+  font-weight: 500;
+  margin-top: 5px;
+}
+
+.group-detail .text{
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+
+.text .number{
+  color: green;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.success, .warning {
+  text-align: center; 
+  padding: 15px 0;
+  border-radius: 5px;
+}
+
+.success{
+  background-color: rgba(0, 128, 0, 0.267);
+  color: rgb(48, 255, 48);
+}
+
+.warning{
+  background-color: orange;
+  color: red;
+}
+
+
+/* ============================================================= */
+/* Task 2 — Shopping bill calculator */
+
+
+.twotask > * {
+  margin: 10px;
+}
+
+
+/* ============================================================= */
+/* Task 3 — Student result card */
+.student-group{
+  margin: 5px 5px 5px 20px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.student-group .passed {
+  color: green;
+  margin: 10px;
+}
+
+.student-group .failed {
+  color: red;
+  margin: 10px;
+}
+
+
+
+/* ============================================================= */
+/* Task 4 — Course list */
+
+.couorse-group li {
+  margin: 10px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+
+/* ============================================================= */
+/* Task 5 — Product availability */
+
+.product-five{
+  margin: 10px 0;
+}
+
+.available{
+  color: green;
+}
+
+.unavailable{
+  color: red;
+}
+
+
+/* ============================================================= */
+/* Task 6 — Mini dashboard */
+
+.dashboard-conuter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.dashboard-conuter .card-counter{
+  width: 380px;
+  margin: 5px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.card-counter:nth-child(1){
+  background-color: blue;
+  color: white;
+}
+
+.card-counter:nth-child(2){
+  background-color: rgba(0, 128, 0, 0.391);
+  color: green;
+}
+
+.card-counter:nth-child(3){
+  background-color: rgba(255, 0, 0, 0.299);
+  color: red;
+}
+
+.dashboard-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+  gap: 10px;
+}
+
+.card-dashboard{
+  padding: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.135);
+  border-radius: 10px;
+}
+
+.card-dashboard h1{
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.card-dashboard .completed {
+  background-color: rgba(0, 128, 0, 0.192);
+  color: green;
+  font-weight: 700;
+}
+
+.card-dashboard .pending {
+  background-color: rgba(255, 0, 0, 0.217);
+  color: red;
+}
+
+.dashboard-container button{
+  padding: 8px 20px;
+  outline: 0;
+  border: 0;
+  border-radius: 10px;
+  margin-top: 8px;
+  font-weight: 700;
+}
+
+
+
+
+
+
+
+
+

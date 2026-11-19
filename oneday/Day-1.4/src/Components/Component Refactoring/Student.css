@@ -1,0 +1,55 @@
+.header-student{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: cornflowerblue;
+  padding: 10px 0;
+  margin-bottom: 10px;
+}
+
+.header-student .icon{
+  font-size: 3em;
+  margin-right: 15px;
+}
+
+
+.student-card{
+    border: 1px solid rgba(0, 0, 0, 0.309);
+}
+
+.student-card .attendance{
+    margin-top: 10px;
+}
+
+.student-card h2{
+    margin-bottom: 10px;
+}
+
+.student-card .Present{
+    display: inline-block;
+    border: 1px solid green;
+    color: green;
+    padding: 5px 15px;
+    margin-left: 10px;
+    border-radius: 5px;
+    transition: all 0.5s ease;
+}
+
+.student-card .Absent{
+    display: inline-block;
+    border: 1px solid red;
+    color: red;
+    padding: 5px 15px;
+    margin-left: 10px;
+    border-radius: 5px;
+    transition: all 0.5s ease;
+}
+
+.student-list footer {
+  padding: 20px 0;
+  background-color:rgb(219, 172, 154);
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 0;
+  margin-top: 10px;
+}

@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f6f8;
+  color: #202124;
+}
+
+
+
+.header {
+  padding: 24px;
+  background: #202124;
+  color: white;
+}
+
+.container {
+  width: min(100% - 32px, 1000px);
+  margin: 24px auto;
+}
+
+/* .welcome-panel,
+.student-card {
+  padding: 20px;
+  border-radius: 10px;
+  background: white;
+  border: 1px solid #ddd;
+}
+
+.welcome-panel {
+  margin-bottom: 24px;
+}
+
+.student-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 16px;
+} */
+
+.footer {
+  background-color: white;
+  padding: 20px;
+  text-align: center;
+  color: #555;
+}
+
+/* @media (max-width: 600px) {
+  .header {
+    padding: 16px;
+  }
+
+  .container {
+    width: calc(100% - 24px);
+  }
+}  */

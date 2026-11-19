@@ -1,0 +1,39 @@
+/* ===================================================================== */
+/* Question 31 — Reusable Panel */
+
+
+.panel-card{
+  margin: 10px 0;
+}
+
+.panel-card h2{
+  margin-bottom: 10px;
+}
+
+.panel-card p {
+  max-width: 700px;
+  color: rgba(0, 0, 0, 0.648);
+  line-height: 25px;
+}
+
+.panel-card ul {
+  padding: 0 20px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.panel-card ul li::marker{
+  content: "📔";
+}
+
+.panel-card:nth-child(1){
+  background-color: lightgreen;
+}
+
+.panel-card:nth-child(2){
+  background-color: lightseagreen;
+}
+
+.panel-card:nth-child(3){
+  background-color: lightyellow;
+}

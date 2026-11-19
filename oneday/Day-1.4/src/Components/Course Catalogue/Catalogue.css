@@ -1,0 +1,28 @@
+/* ===================================================================== */
+/* Question 30 — Course Catalogue */
+
+.Catalogue-Card{
+  border: 1px solid rgba(0, 0, 0, 0.18);
+}
+
+.Catalogue-Card .enrolment{
+  margin-top: 10px;
+}
+
+.Catalogue-Card .enrolment span{
+  display: inline-block;
+  padding: 6px 15px;
+  font-weight: 600;
+  border-radius: 5px;
+}
+
+.Catalogue-Card .open span {
+  background-color: rgba(0, 128, 0, 0.165);
+  color: green;
+}
+
+
+.Catalogue-Card .close span {
+  background-color: rgba(255, 0, 0, 0.152);
+  color: red;
+}
