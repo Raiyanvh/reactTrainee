@@ -1,0 +1,20 @@
+.allstudent-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+    gap: 10px;
+}
+
+.studentList{
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.studentList h2{
+    margin-top: 15px;
+}
+
+.card{
+    padding: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.204);
+    border-radius: 5px;
+}

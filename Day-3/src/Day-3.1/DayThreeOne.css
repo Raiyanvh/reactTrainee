@@ -1,0 +1,87 @@
+
+h1, .text-center{
+    text-align: center;
+}
+
+.container-box{
+  padding: 10px;
+}
+
+.container-box > *{
+  margin: 5px 0;
+}
+
+.text-heading{
+  margin-bottom: 20px;
+  background-color: black;
+  color: white;
+  padding: 10px 0;
+}
+
+.all-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+    gap: 10px;
+}
+
+.card{
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.209);
+    border: 1px solid rgba(128, 128, 128, 0.307);
+}
+
+button{
+    padding: 7px 15px;
+    outline: 0;
+    border: 1px solid grey;
+    background: none;
+    
+}
+
+
+/* 7. Introduction to List Rendering */
+.none-list{
+    list-style: none;
+}
+
+.none-list li{
+    margin: 5px;
+    padding: 10px 15px;
+    background-color: aquamarine;
+}
+
+/* ====================================================== */
+/* 8. Rendering Arrays of Objects */
+
+.student-gruop h2{
+    margin-bottom: 10px;
+}
+
+
+/* ====================================================== */
+/* 10. Combining State and List Rendering */
+.student-three h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.student-three .btn{
+    margin: 10px;
+    text-align: center;
+}
+
+
+
+/* ====================================================== */
+/* 12. Complete Example: Task List */
+
+.taskslist h2{
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+
