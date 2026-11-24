@@ -1,0 +1,26 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.container{
+  width: min(100% - 24px, 1000px);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.244);
+  margin: 20px auto;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.text-center{
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+button{
+  padding: 8px 13px;
+  border-radius: 5px;
+  border: 0;
+  outline: 0;
+  background-color: #ddd;
+}

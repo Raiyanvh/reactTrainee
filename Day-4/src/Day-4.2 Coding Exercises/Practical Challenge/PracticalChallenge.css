@@ -1,0 +1,30 @@
+.practical div label{
+    font-size: 20px;
+    font-weight: 600;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.practical div input, .practical select{
+    width: 40%;
+    margin-bottom: 10px;
+    padding: 4px 7px;
+}
+
+
+.practical-error, .practical-success{
+    padding: 7px 9px;
+    text-align: center;
+    margin: 10px;
+    font-weight: 600;
+}
+
+.practical-error{
+    background-color: rgba(255, 0, 0, 0.257);
+    color: red;
+}
+
+.practical-success{
+    background-color: rgba(0, 128, 0, 0.272);
+    color: green;
+}

@@ -1,0 +1,32 @@
+.card-register label{
+    display: block;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 10px 0;
+}
+
+.card-register input{
+    padding: 5px 10px;
+    width: 50%;
+}
+
+.card-register button{
+    margin-top: 20px;
+}
+
+.error-message, .success-register {
+    margin-top: 10px;
+    padding: 10px 0;
+    text-align: center;
+    background-color: rgba(255, 0, 0, 0.22);
+    font-weight: 600;
+}
+
+.error-message{
+    color: red;
+}
+
+.success-register{
+    background-color: green;
+}
+
